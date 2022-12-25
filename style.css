@@ -1,0 +1,538 @@
+*{
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+box-sizing: border-box;
+}
+@font-face{
+  font-family: my-font;
+  src: url(hand-writing.ttf);
+}
+:root{
+  --color-1: #a13c02;
+  --color-2: #f0cc2e;
+  --color-3: #fae7e1;
+  --color-4: #fae7e1;
+  --f-1: #f79036;
+  --f-2: #a13c02;
+  --f-3: #826449;
+  --box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.5);
+}
+
+                                /*first section start*/
+
+.first-section{
+ background-image: url(image/pic-0.jpeg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: right;
+  background-attachment: fixed;
+  display: flex;
+  height: 100vh;
+  position: relative;
+  z-index: -100;
+}
+
+
+
+.first-section h1{
+  text-align: center;
+  font-family: my-font;
+  margin: 110px 0px 180px 200px;
+  transition: 3s all;
+}
+.first-section h1 .spn1{
+  color: var(--f-1);
+  font-size:100px;
+}
+.first-section h1 .spn2{
+  color: var(--f-2);
+  font-size:80px;
+}
+.first-section h1 .spn3{
+  color: var(--f-3);
+  font-size:80px;
+}
+
+.first-section .logo{
+  width: 150px;
+  height: 180px;
+}
+
+
+
+                                /*first section start*/
+
+
+
+
+                              /*second section start*/
+
+
+.second-section{
+  padding-top: 100px;
+  position: relative;
+z-index: -30;
+  background: var(--color-1);
+  padding-bottom: 100px;
+}
+
+.second-section .side1{
+ left: 0; 
+  width: 35vw;
+  height: 55vh;
+  position: absolute;
+  float: left;
+  z-index: -20;
+  transition: 3s;
+}
+.second-section .side1:hover{
+  margin-left: -1000px;
+  transition: 3s;
+}
+
+
+.second-section h1{
+  text-align: center;
+  font-family: my-font;
+  font-size: 5rem;
+  color: var(--f-1);
+}
+
+.second-section .box-container{
+justify-content: center;
+margin-top: 50px;
+}
+
+.second-section .box{
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+ margin-left: 5vw;
+}
+
+.second-section .box img{
+  box-shadow:var(--box-shadow); 
+ 
+}
+
+.second-section .box h2{
+   text-align: center;
+  font-family: my-font;
+  font-size: 3rem;
+  color: #f79036;
+}
+
+.second-section .box p{
+  color: white;
+  font-family: my-font;
+  font-size: 20px;
+}
+
+.second-section .box-container2 .side2{
+  float: left;
+  margin-left: 11rem;
+  margin-top: 14rem;
+  position: absolute;
+  z-index: -20;
+width: 10rem;
+height: 20rem;
+}
+
+.second-section .box-container2 .box-1{
+  justify-content: center;
+  padding: 0;
+  margin-top: 50px;
+margin-left: 17rem;
+width: 62vw;
+}
+
+
+.second-section .box-container2 .box-1 h2{
+ text-align: center;
+  font-family: my-font;
+  font-size: 3rem;
+  color: var(--f-1);
+
+}
+.second-section .box-container2 .box-1 p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: my-font;
+}
+
+
+.second-section .box-container2 .box-1 .scince-pic{
+  padding: 0;
+  box-shadow: var(--box-shadow);
+   
+}
+
+
+.second-section::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1.60vh;
+  right: 0;
+  background-repeat: repeat;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image:
+   radial-gradient(circle at 10px -5px, transparent 12px, var(--color-1) 13px);
+
+}
+
+.second-section::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2.40vh;
+  right: 0;
+  background-repeat: repeat;
+  height: 25px;
+  background-size: 40px 20px;
+  background-image:
+    radial-gradient(circle at 10px 15px, var(--color-1) 12px, transparent 13px);
+}
+
+
+                                        /*second section end*/
+
+
+                                        /*third section start*/
+
+
+
+.third-section{
+  background: var(--color-2);
+  position: relative;
+  padding-bottom: 50px;
+
+}
+.third-section .box-container{
+   justify-content: center;
+   margin-left: 5vw;
+}
+.third-section .box-container .box{
+background: var(--color-1);
+justify-content: center;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 270px;
+  height: 400px;
+}
+
+.third-section .box-container .box img{
+  margin:15px 0px;
+}
+
+.third-section h1{
+text-align: center;
+  font-family: my-font;
+  font-size: 5rem;
+  color: #fff;
+}
+.third-section .box-container .box h2{
+   text-align: center;
+  font-family: my-font;
+  font-size: 3rem;
+  color: var(--f-1);
+}
+.third-section .box-container .box p{
+  color: white;
+  text-align: center;
+  font-family: my-font;
+  font-size: 20px;
+}
+
+.third-section::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1.50vh;
+  right: 0;
+  background-repeat: repeat;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image:
+   radial-gradient(circle at 10px -5px, transparent 12px, var(--color-2) 13px);
+}
+
+.third-section::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2.20vh;
+  right: 0;
+  background-repeat: repeat;
+  height: 25px;
+  background-size: 40px 20px;
+  background-image:
+    radial-gradient(circle at 10px 15px, var(--color-2) 12px, transparent 13px);
+}
+
+
+/*third section end*/
+
+
+                                      /*fourth section start*/
+
+.fourth-section{
+  justify-content: center;
+  text-align: center;
+  background: var(--color-3);
+  position: relative;
+  z-index: 2;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.fourth-section .side3{
+   float: right;
+   padding: 0;
+  margin-right: 0;
+  margin-top: 11rem;
+  position: relative;
+  z-index: -20;
+width: 10rem;
+height: 20rem;
+transition: 3s;
+}
+.fourth-section .box-container{
+justify-content: center;
+  margin-top: 50px;
+  margin-left: 17rem;
+  width: 62vw;
+}
+.fourth-section h1{
+  margin-top: 50px;
+  font-family: my-font;
+  font-size: 3rem;
+  color: var(--f-3);
+  z-index: -19;
+  position: relative;
+}
+.fourth-section .box-container .box1{
+  background: #08cc7e;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 10px;
+  text-align: left;
+font-family: my-font;
+}
+.fourth-section .box-container .box1 img{
+  margin: 10px 0px;
+}
+.fourth-section .box-container .box2{
+  background: var(--color-1);
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 10px;
+  text-align: left;
+  font-family: my-font;
+}
+.fourth-section .box-container .box2 img{
+  margin: 10px 0px;
+}
+
+
+
+.fourth-section::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1.50vh;
+  right: 0;
+  background-repeat: repeat;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image:
+   radial-gradient(circle at 10px -5px, transparent 12px, var(--color-3) 13px);
+}
+
+.fourth-section::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2.20vh;
+  right: 0;
+  background-repeat: repeat;
+  height: 25px;
+  background-size: 40px 20px;
+  background-image:
+    radial-gradient(circle at 10px 15px, var(--color-3) 12px, transparent 13px);
+}
+/*fourth section end*/
+
+
+
+
+                                      /*media query work for all sections*/
+ @media screen and (max-width: 885px) {
+  
+                /*for first-section*/
+
+  .first-section h1{
+    font-size: 50px;
+  margin: 130px 0px 200px 50px;
+  }
+  .first-section .logo{
+  width: 110px;
+  height: 150px;
+}
+               /*for first-section*/
+
+               /*for second-section*/               
+.second-section .box{
+    margin-left: 0;
+
+  }
+  .second-section h1{
+    font-size: 50px;
+  }
+  .second-section .box-container h2{
+    font-size: 30px;
+  }
+  .second-section .box-container p{
+    font-size: 20px;
+    font-family: my-font;
+   text-shadow: 1px 2px 1px 2px black;
+  }
+.second-section .box-container2 .box-1{
+justify-content: center;
+margin-left: 0;
+width: 95vw;
+
+  
+}
+
+.second-section .box-container2 .side2{
+  float: left;
+  margin-left: 0rem;
+  margin-top: -6rem;
+  position: absolute;
+  z-index: -20;
+width: 5rem;
+height: 10rem;
+}
+
+               /* second-section*/ 
+
+               /*for third-section*/ 
+.third-section .box-container{
+  margin-left: 0;
+}
+.third-section .box-container .box{
+  width: 300px;
+  height: 400px;
+}
+
+  .third-section h1{
+    font-size: 50px;
+  }
+  .third-section .box-container h2{
+     font-size: 30px;
+       font-family: my-font;
+  }
+
+  .third-section .box-container p{
+     font-size: 20px;
+    font-family: my-font;
+   text-shadow: 1px 2px 1px 2px black;
+  }
+
+               /*third-section*/ 
+
+
+               /*for fourth-section*/ 
+  .fourth-section .box-container{
+    width: 90vw;
+margin-left: 0;
+  }
+  .fourth-section .side3{
+     float: right;
+  margin-left: 4rem;
+  margin-top: -2rem;
+  position: absolute;
+  z-index: -20;
+width: 5rem;
+height: 10rem;
+transition: 3s;
+}
+.fourth-section .side3:hover{
+  margin-top: -8rem;
+  transition: 3s ;
+  z-index: -19;
+  position: absolute;
+  }
+}
+}
+
+                 /*fourth-section*/ 
+
+
+                                      /*media query work for all sections*/
+@media screen and (max-width: 500px) {
+  
+  .first-section h1{
+    font-size: 30px;
+    margin: 50px;
+  }
+  .first-section .logo{
+  width: 30vw;
+  height: 15vh;
+}
+
+.second-section .box{
+    margin-left: 0;
+
+  }
+  .second-section h1{
+    font-size: 50px;
+  }
+  .second-section .box-container h2{
+    font-size: 30px;
+  }
+  .second-section .box-container p{
+    font-size: 20px;
+    font-family: my-font;
+   text-shadow: 1px 2px 1px 2px black;
+  }
+.second-section .box-container2 .box-1{
+  margin-left: 0;
+  width: 95vw;
+  
+}
+
+
+.third-section .box-container{
+  margin-left: 0;
+}
+.third-section .box-container .box{
+  width: 250px;
+  height: 400px;
+}
+
+  .third-section h1{
+    font-size: 50px;
+  }
+  .third-section .box-container h2{
+     font-size: 20px;
+       font-family: my-font;
+  }
+
+  .third-section .box-container p{
+     font-size: 15px;
+    font-family: my-font;
+   text-shadow: 1px 2px 1px 2px black;
+  }
+
+  .fourth-section .box-container{
+margin-left: 0;
+width: 90vw;
+}
+
+}
