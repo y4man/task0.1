@@ -36,10 +36,10 @@ box-sizing: border-box;
 
 
 .first-section h1{
-  text-align: center;
   font-family: my-font;
-  margin: 110px 0px 180px 200px;
   transition: 3s all;
+   text-align: center;
+    margin: 110px 0px 180px 200px;
 }
 .first-section h1 .spn1{
   color: var(--f-1);
@@ -56,12 +56,12 @@ box-sizing: border-box;
 
 .first-section .logo{
   width: 150px;
-  height: 180px;
+  height: auto;
 }
 
 
 
-                                /*first section start*/
+                                /*first section end*/
 
 
 
@@ -70,7 +70,7 @@ box-sizing: border-box;
 
 
 .second-section{
-  padding-top: 100px;
+  padding-top: 50px;
   position: relative;
 z-index: -30;
   background: var(--color-1);
@@ -78,9 +78,9 @@ z-index: -30;
 }
 
 .second-section .side1{
- left: 0; 
-  width: 35vw;
-  height: 55vh;
+ left: -3vw; 
+  width: 25vw;
+  height: auto;
   position: absolute;
   float: left;
   z-index: -20;
@@ -100,16 +100,14 @@ z-index: -30;
 }
 
 .second-section .box-container{
-justify-content: center;
 margin-top: 50px;
 }
 
 .second-section .box{
-  justify-content: center;
+  margin-top: 20px;
   text-align: center;
-  width: 400px;
-  height: 400px;
- margin-left: 5vw;
+  width: 450px;
+  height: auto;
 }
 
 .second-section .box img{
@@ -130,29 +128,34 @@ margin-top: 50px;
   font-size: 20px;
 }
 
+.second-section .box-container2{
+  padding: 0;
+}
+
 .second-section .box-container2 .side2{
   float: left;
-  margin-left: 11rem;
-  margin-top: 14rem;
+  margin-left: -78%;
+  margin-top: 24rem;
   position: absolute;
   z-index: -20;
-width: 10rem;
-height: 20rem;
+width: 15vw;
+height: auto;
+transition: 3s all;
 }
 
 .second-section .box-container2 .box-1{
-  justify-content: center;
   padding: 0;
   margin-top: 50px;
-margin-left: 17rem;
-width: 62vw;
+width: 998px;
 }
-
+.second-section .box-container2 .box-1 img{
+  width: 998px;
+}
 
 .second-section .box-container2 .box-1 h2{
  text-align: center;
   font-family: my-font;
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--f-1);
 
 }
@@ -178,7 +181,7 @@ width: 62vw;
   top: -1.60vh;
   right: 0;
   background-repeat: repeat;
-  height: 20px;
+  height: 25px;
   background-size: 20px 20px;
   background-image:
    radial-gradient(circle at 10px -5px, transparent 12px, var(--color-1) 13px);
@@ -214,16 +217,14 @@ width: 62vw;
 }
 .third-section .box-container{
    justify-content: center;
-   margin-left: 5vw;
 }
 .third-section .box-container .box{
 background: var(--color-1);
 justify-content: center;
   text-align: center;
-  margin-left: 15px;
-  margin-top: 10px;
-  width: 270px;
-  height: 400px;
+  margin: 10px 10px;
+  width: 315px;
+  height: auto;
 }
 
 .third-section .box-container .box img{
@@ -294,18 +295,18 @@ text-align: center;
    float: right;
    padding: 0;
   margin-right: 0;
-  margin-top: 11rem;
+  margin-top: 12rem;
   position: relative;
   z-index: -20;
-width: 10rem;
-height: 20rem;
+width: 12rem;
+height: auto;
 transition: 3s;
 }
 .fourth-section .box-container{
 justify-content: center;
   margin-top: 50px;
-  margin-left: 17rem;
-  width: 62vw;
+  width: 72vw;
+  height: auto;
 }
 .fourth-section h1{
   margin-top: 50px;
@@ -371,95 +372,73 @@ font-family: my-font;
 
 
                                       /*media query work for all sections*/
- @media screen and (max-width: 885px) {
-  
-                /*for first-section*/
+ 
+ @media screen and (max-width: 988px) {
 
-  .first-section h1{
-    font-size: 50px;
-  margin: 130px 0px 200px 50px;
-  }
-  .first-section .logo{
-  width: 110px;
-  height: 150px;
-}
-               /*for first-section*/
-
-               /*for second-section*/               
-.second-section .box{
-    margin-left: 0;
-
-  }
-  .second-section h1{
-    font-size: 50px;
-  }
-  .second-section .box-container h2{
-    font-size: 30px;
-  }
-  .second-section .box-container p{
-    font-size: 20px;
-    font-family: my-font;
-   text-shadow: 1px 2px 1px 2px black;
-  }
-.second-section .box-container2 .box-1{
-justify-content: center;
-margin-left: 0;
-width: 95vw;
-
-  
+.second-section .side1{
+ top: 2vw;
+  width: 30vw;
+ }  
+.fourth-section .side3{
+  margin-left: -4rem;
+  width: 14vw;
 }
 
 .second-section .box-container2 .side2{
-  float: left;
-  margin-left: 0rem;
-  margin-top: -6rem;
-  position: absolute;
-  z-index: -20;
-width: 5rem;
-height: 10rem;
+  margin-left: -85%;
+}
+ }
+
+
+ @media screen and (max-width: 500px) {
+  
+             
+.first-section h1, .second-section h1, .third-section h1, .fourth-section h1{
+  font-size: 55px;
+
+}
+.first-section h1{
+  margin: 150px 0px 0px 30px;
+  }
+
+ 
+ 
+ .second-section .side1{
+  left: -6vw;
+  top: 40px;
+  width: 45vw;
+ }                    
+.second-section .box-container .box h2{
+font-size: 45px;
+  }
+  .second-section .box-container .box p{
+    font-size: 20px;
+     text-shadow: 1px 2px 1px 2px black;
+  }
+  
+.second-section .box-container2 .box-1 h2{
+  font-size: 45px;
+}
+.second-section .box-container2 .box-1 p{
+  font-size: 20px;
 }
 
-               /* second-section*/ 
+.second-section .box-container2 .side2{
+ 
+top: 39%;
+ margin-left: -70%;
 
-               /*for third-section*/ 
-.third-section .box-container{
-  margin-left: 0;
-}
-.third-section .box-container .box{
-  width: 300px;
-  height: 400px;
 }
 
-  .third-section h1{
-    font-size: 50px;
-  }
-  .third-section .box-container h2{
-     font-size: 30px;
-       font-family: my-font;
-  }
 
-  .third-section .box-container p{
-     font-size: 20px;
-    font-family: my-font;
-   text-shadow: 1px 2px 1px 2px black;
-  }
-
-               /*third-section*/ 
-
-
-               /*for fourth-section*/ 
-  .fourth-section .box-container{
-    width: 90vw;
-margin-left: 0;
-  }
   .fourth-section .side3{
      float: right;
-  margin-left: 4rem;
+  margin-left: 1rem;
   margin-top: -2rem;
   position: absolute;
   z-index: -20;
 width: 5rem;
-height: 10rem;
+height: auto;
 transition: 3s;
 }
 .fourth-section .side3:hover{
@@ -474,65 +453,4 @@ transition: 3s;
                  /*fourth-section*/ 
 
 
-                                      /*media query work for all sections*/
-@media screen and (max-width: 500px) {
-  
-  .first-section h1{
-    font-size: 30px;
-    margin: 50px;
-  }
-  .first-section .logo{
-  width: 30vw;
-  height: 15vh;
-}
-
-.second-section .box{
-    margin-left: 0;
-
-  }
-  .second-section h1{
-    font-size: 50px;
-  }
-  .second-section .box-container h2{
-    font-size: 30px;
-  }
-  .second-section .box-container p{
-    font-size: 20px;
-    font-family: my-font;
-   text-shadow: 1px 2px 1px 2px black;
-  }
-.second-section .box-container2 .box-1{
-  margin-left: 0;
-  width: 95vw;
-  
-}
-
-
-.third-section .box-container{
-  margin-left: 0;
-}
-.third-section .box-container .box{
-  width: 250px;
-  height: 400px;
-}
-
-  .third-section h1{
-    font-size: 50px;
-  }
-  .third-section .box-container h2{
-     font-size: 20px;
-       font-family: my-font;
-  }
-
-  .third-section .box-container p{
-     font-size: 15px;
-    font-family: my-font;
-   text-shadow: 1px 2px 1px 2px black;
-  }
-
-  .fourth-section .box-container{
-margin-left: 0;
-width: 90vw;
-}
-
-}
+                                     
