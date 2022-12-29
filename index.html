@@ -11,6 +11,9 @@
  <!-- bootstrap linking -->
  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
+<!-- aos animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!-- css linking -->
  <link rel="stylesheet" href="style.css">
     <title>skill kids squad</title>
@@ -28,7 +31,7 @@
                   <!-- second section start -->
 <section class="second-section container-fluid">
 
-  <img class="side1 img-fluid" src="image/pic-4.1.png">
+  <img class="side1 img-fluid" data-aos="flip-up"  data-aos-duration="1000" src="image/pic-4.1.png">
   
   <div class="container">
     
@@ -37,7 +40,7 @@
 <h1>SUBJECTS</h1>
 
 
-  <div class="box col-md-6">
+  <div class="box col-md-6" data-aos="fade-down"  data-aos-duration="2000">
     <h2 class="col">MATH</h2>
     <p class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedeiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
@@ -46,7 +49,7 @@
   
 
 
-  <div class="box col-md-6">
+  <div class="box col-md-6" data-aos="fade-down"  data-aos-duration="2000">
     <h2 class="col">ENGLISH</h2>
     <p class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,.</p>
@@ -61,8 +64,8 @@
 
 <div class="box-container2 d-flex justify-content-around ">
 
-<img class="side2 justify-content-start img-fluid" src="image/pic-5.1.png">
-<div class="box-1 ">
+<img class="side2 justify-content-start img-fluid" data-aos="fade-down"  data-aos-duration="2000" src="image/pic-5.1.png">
+<div class="box-1 " data-aos="zoom-in"  data-aos-duration="2000">
 
 
   <h2 class="">SCIENCE</h2>
@@ -86,7 +89,7 @@
 
 <div class="box-container d-flex justify-content-center row">
   
-<div class="box col-md-4">
+<div class="box col-md-4" data-aos="fade-up"  data-aos-duration="2000">
   <img src="image/pic-3.jpeg" class="img-fluid">
   <h2>ANIMATIONS</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -94,7 +97,7 @@
 </div>
 
 
-<div class="box col-md-4">
+<div class="box col-md-4" data-aos="fade-up"  data-aos-duration="2000">
   <img src="image/pic-3.jpeg" class="img-fluid">
   <h2>GAME</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -102,7 +105,7 @@
 </div>
 
 
-<div class="box col-md-4">
+<div class="box col-md-4" data-aos="fade-up"  data-aos-duration="2000">
   <img src="image/pic-3.jpeg" class="img-fluid">
   <h2>MUSICS</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -121,14 +124,14 @@
   
 <h1>MORE FEATURES</h1>
 
- <img class="side3 img-fluid" src="image/pic-5.1.png"> 
+ <img class="side3 img-fluid" data-aos="zoom-in-up"  data-aos-duration="2000" src="image/pic-5.1.png"> 
 <div class="box-container   container">
 
   
-<div class="box1 justify-content-center row">
-  <img class="img-fluid col-md-4" src="image/pic-3.jpeg">
+<div class="box1  justify-content-center row" data-aos="flip-up"  data-aos-duration="2000">
+  <img class="img-fluid figure-img rounded col-md-4"  src="image/pic-3.jpeg">
 
-  <div class="box1 col-md-8">
+  <div class="box1 col-md-8" >
 
   <h2>progress tracking</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -136,8 +139,8 @@
 </div>
 </div>
 
-<div class="box2 row">
- <img class="img-fluid col-md-4" src="image/pic-3.jpeg">
+<div class="box2 row" data-aos="flip-up"  data-aos-duration="2000">
+ <img class="img-fluid rounded col-md-4" src="image/pic-3.jpeg">
  <div class="box2 col-md-8">
   <h2>coins and rewards</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -146,8 +149,8 @@
 </div>
 
 
-<div class="box1 row">
- <img class="img-fluid col-md-4" src="image/pic-3.jpeg">
+<div class="box1 row" data-aos="flip-up"  data-aos-duration="2000">
+ <img class="img-fluid rounded col-md-4" src="image/pic-3.jpeg">
  <div class="box1 col-md-8">
   <h2>characters</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -167,7 +170,11 @@
 <!-- bootstrap linking -->
 <script type="text/javascript" src="  https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- firebase hosting -->
 
+  <!-- AOS LIBBRARY -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

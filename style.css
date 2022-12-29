@@ -87,8 +87,9 @@ z-index: -30;
   transition: 3s;
 }
 .second-section .side1:hover{
-  margin-left: -1000px;
+  transform: rotate(180deg);
   transition: 3s;
+  position: absolute;
 }
 
 
@@ -302,6 +303,9 @@ width: 12rem;
 height: auto;
 transition: 3s;
 }
+.fourth-section .side3:hover{
+  transform: rotateX(270deg);
+}
 .fourth-section .box-container{
 justify-content: center;
   margin-top: 50px;
@@ -325,7 +329,7 @@ justify-content: center;
 font-family: my-font;
 }
 .fourth-section .box-container .box1 img{
-  margin: 10px 0px;
+   margin: 10px 0px;
 }
 .fourth-section .box-container .box2{
   background: var(--color-1);
@@ -424,12 +428,15 @@ font-size: 45px;
 }
 
 .second-section .box-container2 .side2{
- 
 top: 39%;
  margin-left: -70%;
 
 }
+.second-section .box-container2 .side2:hover{
+  top: 54%;
 
+ 
+}
 
   .fourth-section .side3{
      float: right;
