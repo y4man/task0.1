@@ -139,7 +139,7 @@ margin-top: 50px;
   margin-top: 24rem;
   position: absolute;
   z-index: -20;
-width: 15vw;
+width: 12vw;
 height: auto;
 transition: 3s all;
 }
@@ -303,9 +303,7 @@ width: 12rem;
 height: auto;
 transition: 3s;
 }
-.fourth-section .side3:hover{
-  transform: rotateX(270deg);
-}
+
 .fourth-section .box-container{
 justify-content: center;
   margin-top: 50px;
@@ -428,7 +426,7 @@ font-size: 45px;
 }
 
 .second-section .box-container2 .side2{
-top: 39%;
+top: 40%;
  margin-left: -70%;
 
 }
